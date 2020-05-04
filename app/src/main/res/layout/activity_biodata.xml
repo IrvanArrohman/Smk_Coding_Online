@@ -31,6 +31,11 @@
         android:background="@drawable/bg"
         android:orientation="vertical"
         android:layout_height="match_parent">
+        <ImageView
+            android:layout_gravity="center"
+            android:background="@drawable/fp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"/>
         <LinearLayout
             android:orientation="horizontal"
             android:layout_width="match_parent"
@@ -64,7 +69,6 @@
                 android:textColor="#333"
                 android:layout_marginLeft="25dp"
                 android:id="@+id/jkTxt"
-                android:text="Laki-Laki"
                 android:layout_marginTop="20dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"/>
@@ -129,7 +133,7 @@
         <LinearLayout
             android:orientation="horizontal"
             android:layout_width="match_parent"
-            android:layout_height="140dp">
+            android:layout_height="60dp">
             <TextView
                 android:text="Alamat"
                 android:textColor="#333"
@@ -164,8 +168,18 @@
                 android:textColor="#fff"
                 android:background="@drawable/button"
                 android:layout_width="150dp"
-                android:layout_marginLeft="50dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="20dp"
                 android:layout_height="50dp"/>
         </LinearLayout>
+        <Button
+        android:id="@+id/dial"
+        android:text="Dial"
+        android:textColor="#fff"
+        android:background="@drawable/button"
+        android:layout_width="150dp"
+        android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+        android:layout_height="50dp"/>
     </LinearLayout>
 </LinearLayout>
